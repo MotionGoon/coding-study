@@ -2,7 +2,7 @@
 2. Git 설치
 3. Git Bash - 기본설정 
 git config --global user.name "Goon"
-git config --global user.name "escjk@hanmail.net"
+git config --global user.email "escjk@hanmail.net"
 
 git config --list
  
