@@ -1,0 +1,24 @@
+1. GitHub 가입
+2. Git 설치
+3. Git Bash - 기본설정 
+git config --global user.name "Goon"
+git config --global user.name "escjk@hanmail.net"
+
+git config --list
+ 
+4. Visual Studio Coded - Terminal
+git init 
+git add . 
+git status
+git commit -m "first commit"
+git remote add origin https://github.com/MotionGoon/coding-study.git
+git remote -v
+
+git push origin master
+
+
+https://hackmd.io/@oW_dDxdsRoSpl0M64Tfg2g/ByfwpNJ-K
+
+
+5. 승인 요청
+git checkout -b goon n

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Table Tag</title>
+    <link rel="stylesheet" href="03_표 태그.css" />
+  </head>
+  <body>
+    <h1>Table을 만들어보자</h1>
+    <table>
+      <caption>
+        성적표
+      </caption>
+      <tr>
+        <th>과목</th>
+        <th>점수</th>
+        <th>등급</th>
+      </tr>
+      <tr>
+        <td>수학</td>
+        <td>90</td>
+        <td>A</td>
+      </tr>
+      <tr>
+        <td>영어</td>
+        <td>80</td>
+        <td>B</td>
+      </tr>
+    </table>
+    <hr />
+    <table>
+      <caption>
+        Class Score
+      </caption>
+      <colgroup>
+        <col class="col1" />
+        <col class="col2" />
+        <col class="col3" />
+        <col class="col4" />
+        <col class="col5" />
+        <col class="col6" />
+      </colgroup>
+      <thead>
+        <tr>
+          <th>반</th>
+          <th>이름</th>
+          <th>국어</th>
+          <th>영어</th>
+          <th>수학</th>
+          <th>과학</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td rowspan="4">1반</td>
+          <td>신종군</td>
+          <td>90</td>
+          <td>80</td>
+          <td>90</td>
+          <td>85</td>
+        </tr>
+        <tr>
+          <td>김선영</td>
+          <td>95</td>
+          <td>90</td>
+          <td>95</td>
+          <td>100</td>
+        </tr>
+        <tr>
+          <td>송석호</td>
+          <td>95</td>
+          <td>80</td>
+          <td>85</td>
+          <td>95</td>
+        </tr>
+        <tr>
+          <td>김은영</td>
+          <td>95</td>
+          <td>75</td>
+          <td>95</td>
+          <td>90</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <td colspan="2">평균</td>
+          <td>90</td>
+          <td>90</td>
+          <td>90</td>
+          <td>90</td>
+        </tr>
+      </tfoot>
+    </table>
+  </body>
+</html>
