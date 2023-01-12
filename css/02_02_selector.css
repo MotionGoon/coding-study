@@ -1,0 +1,11 @@
+h2[class] {
+  font-size: 30px;
+}
+
+[target] {
+  color: green;
+}
+
+a[href*="http"] {
+  text-decoration: none;
+}

@@ -1,0 +1,29 @@
+/* 전체 선택자 */
+* {
+  margin: 0;
+  padding: 0;
+}
+/* 기본 선택자 */
+h2 {
+  color: blue;
+  text-align: center;
+}
+
+p {
+  color: red;
+  text-align: center;
+  font-weight: 500;
+}
+/* 클래스 선택자 */
+.text-blue {
+  color: blue;
+}
+.text-green {
+  color: green;
+}
+
+/* 아이디 선택자 */
+#text-yellow {
+  color: yellow;
+  text-align: center;
+}
